@@ -1,0 +1,15 @@
+{
+  "name": "prreader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "cat src/index.wisp | wisp > build/index.js && node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wisp": "^0.10.0"
+  }
+}
